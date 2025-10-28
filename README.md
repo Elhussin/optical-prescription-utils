@@ -157,6 +157,9 @@ console.log("Toric Contact Lens Result:", toricResult);
 }
 */
 ```
+### CI/CD
+![CI](https://github.com/Elhussin/optical-prescription-utils/actions/workflows/test-build.yml/badge.svg)
+
 ## 💡 Contributing
 
 We welcome contributions! If you have suggestions for improving validation rules, finding bugs, or adding new features, please open an issue or submit a Pull Request.
