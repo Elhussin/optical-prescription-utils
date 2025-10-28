@@ -3,9 +3,9 @@ A robust TypeScript/JavaScript package for validating, formatting, and convertin
 
 ## 🚀 Installation
 ```bash
-npm install optical-prescription-utils
+npm install eye-test-utils
 # or
-yarn add optical-prescription-utils
+yarn add eye-test-utils
 ```
 
 ## 📝 TypeScript Support
@@ -23,7 +23,7 @@ This class handles the validation and formatting of standard eyeglass prescripti
 
 - Usage Example: Validation and Formatting SPH/CYL/AXIS
 ```typescript
-        import { EyeTestValidator } from 'optical-prescription-utils'; // (assuming this is the correct path)
+        import { EyeTestValidator } from 'eye-test-utils'; // (assuming this is the correct path)
 
         const validator = new EyeTestValidator();
         const sphere = -1.50;
@@ -46,7 +46,7 @@ This class handles the validation and formatting of standard eyeglass prescripti
 
 - Usage Example: Validation and Formatting
 ```typescript
-import { EyeTestValidator } from 'optical-prescription-utils';
+import { EyeTestValidator } from 'eye-test-utils';
 
 const validator = new EyeTestValidator();
 
@@ -112,7 +112,7 @@ This class handles the conversion of an eyeglass prescription into a Contact Len
 Converts an eyeglass prescription to a spherical contact lens prescription (using the Spherical Equivalent if CYL is present).
 
 ```typescript
-import { ContactLensValidator } from 'optical-prescription-utils';
+import { ContactLensValidator } from 'eye-test-utils';
 
 const clValidator = new ContactLensValidator();
 
@@ -161,14 +161,14 @@ console.log("Toric Contact Lens Result:", toricResult);
 
 We welcome contributions! If you have suggestions for improving validation rules, finding bugs, or adding new features, please open an issue or submit a Pull Request.
 
-**GitHub Repository:** [https://github.com/Elhussin/optical-prescription-utils.git](https://github.com/Elhussin/optical-prescription-utils.git)
+**GitHub Repository:** [https://github.com/Elhussin/eye-test-utils.git](https://github.com/Elhussin/eye-test-utils.git)
 
 ## 💬 Support & Contact
 
 If you have any questions, need technical support, or want to discuss features, feel free to reach out:
 
 * **Email:** [hasin3112@gmail.com](mailto:hasin3112@gmail.com)
-* **GitHub Issues:** [Open an Issue here](https://github.com/Elhussin/optical-prescription-utils/issues) (The preferred way to report bugs)
+* **GitHub Issues:** [Open an Issue here](https://github.com/Elhussin/eye-test-utils/issues) (The preferred way to report bugs)
 
 ## 📜 License
 This project is licensed under the **MIT License**.

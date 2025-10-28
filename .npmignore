@@ -1,0 +1,10 @@
+# استبعاد مجلدات التطوير
+node_modules/
+src/
+test/
+__tests__/
+tsconfig.json
+jest.config.js
+
+# استبعاد مجلد البناء المؤقت
+dist-test/
