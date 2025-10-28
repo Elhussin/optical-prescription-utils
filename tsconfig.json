@@ -1,12 +1,15 @@
+
 {
-  "extends": "./tsconfig.json", 
-  
   "compilerOptions": {
-
-    "types": ["jest", "node"], 
-    
+    "target": "ES2020",
+    "module": "ESNext",
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
-
+    "skipLibCheck": true
   },
-  "include": ["src", "__tests__", "test"], 
+  "include": ["src"]
 }
