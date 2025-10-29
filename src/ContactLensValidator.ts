@@ -57,7 +57,7 @@ export class ContactLensValidator {
     const ax = axis ? parseFloat(axis) : 0;
     const bv = vertexDistance ? parseFloat(vertexDistance) : 12;
     const addValue = add ? parseFloat(add) : 0;
-    console.log(sph, cyl, ax, bv, addValue, vertexDistance, data["BV"]);
+
 
     const totalSphere = Math.abs(cyl) !== 0 ? this.sphericalEquivalent(sph, cyl) : sph;
 

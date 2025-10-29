@@ -1,6 +1,6 @@
 {
   "name": "eye-test-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Validation & calculation utilities for optical prescriptions (glasses & lenses).",
   "type": "module",
   "main": "./dist/index.cjs",
